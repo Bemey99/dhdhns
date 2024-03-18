@@ -1,0 +1,5 @@
+local StandOwner = "sjsjnzndnf"
+
+game.Players[StandOwner].Chatted:Connect(function(msg)
+  if msg == ("!invent") then 
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('Inventing!', 'All');
